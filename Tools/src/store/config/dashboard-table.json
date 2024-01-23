@@ -1,0 +1,60 @@
+{
+    "columns": [
+        {
+            "order": 0,
+            "name": "Type",
+            "displayName": "Type",
+            "attributeName": "type",
+            "isBasic": true
+        },
+        {
+            "order": 1,
+            "name": "Title",
+            "displayName": "Title",
+            "attributeName": "PLMEntity.V_Name",
+            "isBasic": false
+        },        
+        {
+            "order": 2,
+            "name": "Revision",
+            "displayName": "Revision",
+            "attributeName": "revision",
+            "isBasic": false
+        },
+        {
+            "order": 3,
+            "name": "Release Phase",
+            "displayName": "Release Phase",
+            "attributeName": "ACGVPMReferenceExt.ACGReleasePhase",
+            "isBasic": true
+        },
+        {
+            "order": 4,
+            "name": "Status",
+            "displayName": "Status",
+            "attributeName": "current",
+            "isBasic": true
+        }, 
+        {
+            "order": 5,
+            "name": "Enterprise Item Number",
+            "displayName": "Enterprise Item Number",
+            "attributeName": "EnterpriseExtension.V_PartNumber",
+            "isBasic": true
+        },
+        {
+            "order": 6,
+            "name": "Project",
+            "displayName": "Colaborative Space",
+            "attributeName": "project",
+            "isBasic": true
+        },
+        {
+            "order": 7,
+            "name": "CompanyTitle",
+            "displayName": "Company",
+            "attributeName": "CompanyTitle",
+            "isBasic": true
+        }
+    ]
+}
